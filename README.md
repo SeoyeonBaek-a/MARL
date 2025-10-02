@@ -25,4 +25,9 @@ python big5_trust.py
 # PPO 학습 실행
 python big5_trust_MARL.py --episodes 200 --max-steps 200 --headless
 
+# learning phase 실행
+python ToM_trust.py --phase learn --team A
+
+# generalization phase 실행
+python ToM_trust.py --phase gen
 
